@@ -21,3 +21,39 @@ The current MeCoRI release contains:
 The database supports both:
 - Amplicon-based community profiling
 - Full-length gene classification
+
+
+---
+
+## Repository Structure
+
+<details>
+<summary><strong>Click to expand the full directory structure</strong></summary>
+
+```text
+MeCoRI/
+├── README.md                  
+├── environment.yml
+├── database/
+│   ├── MeCoRI_tax.qza
+│   ├── MeCoRI_seq.qza 
+│   └── classifier_MeCoRI.qza          
+├── data/
+│   ├── raw/
+│   │   └── PF02745.hmm
+│   ├── final/                
+│   └── synonym.txt           
+├── scripts/
+│   ├── 00_prep_gtdb.sh
+│   ├── 01_fetch_and_merge.sh 
+│   ├── 02_super_cleaner.py   
+│   ├── 03_tax_filter.py      
+│   ├── 04_species_curator.py 
+│   ├── 05_apply_synonyms.py  
+│   ├── 06_curate_pipeline.sh 
+│   └── 07_train_model.sh     
+└── benchmark/
+    ├── mock_seq.fasta
+    ├── mock_taxonomy.tsv
+    ├── mock_seq.qza
+    └── PRJNA1378807_rep-seqs.qza
