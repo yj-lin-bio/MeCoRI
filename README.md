@@ -81,6 +81,11 @@ The tutorial is divided into three parts:
 
 # Part 1. Quick Start (Recommended)
 
+<details>
+<summary><strong>Click to expand the full directory structure</strong></summary>
+    
+```text
+
 Most users should start here.
 
 The MeCoRI repository already includes a curated reference database and a pre-trained classifier. Therefore, you do **not** need to rebuild the database from NCBI or GTDB.
@@ -154,6 +159,10 @@ These files include:
 | `MeCoRI_tax.qza` | Curated taxonomy reference |
 | `MeCoRI_seq.qza` | Curated reference sequences |
 
+
+```
+
+</details>
 ---
 
 # Part 2. Test MeCoRI Using the Mock Community
