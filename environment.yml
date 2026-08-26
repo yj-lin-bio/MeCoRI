@@ -1,0 +1,18 @@
+name: mecori
+
+channels:
+  - https://packages.qiime2.org/qiime2/2026.1/amplicon/released
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - qiime2-amplicon
+  - rescript=2026.1.*
+  - taxonkit
+  - wget
+  - pandas
+  - openpyxl
+  - numpy
+  - scikit-learn
+  - matplotlib
