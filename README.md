@@ -41,7 +41,6 @@ MeCoRI/
 ├── data/
 │   ├── raw/
 │   │   └── PF02745.hmm
-│   ├── final/
 │   └── synonym.txt
 ├── scripts/
 │   ├── 00_prep_gtdb.sh
