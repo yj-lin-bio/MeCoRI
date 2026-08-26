@@ -7,8 +7,7 @@ MeCoRI/
 │   └── classifier_MeCoRI.qza          
 ├── data/
 │   ├── raw/
-│   │   └── PF02745.hmm
-│   ├── final/                
+│   │   └── PF02745.hmm               
 │   └── synonym.txt           
 ├── scripts/
 │   ├── 00_prep_gtdb.sh
