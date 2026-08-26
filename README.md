@@ -277,34 +277,7 @@ Run:
 bash scripts/06_curate_pipeline.sh
 ```
 
-This pipeline orchestrates multiple Python scripts to clean, filter, and refine the database:
-
-### Taxonomy Standardization (`02_super_cleaner.py`)
-
-- Standardizes prefixes (e.g., all domains become `d__Archaea`)
-- Harmonizes specific clades
-
-### Taxonomic Filtering (`03_tax_filter.py`)
-
-- Removes uncultured taxa
-- Removes unclassified taxa
-- Removes unidentified taxa
-- Removes entries with incomplete taxonomic lineages
-
-### Species-Level Curation (`04_species_curator.py`)
-
-- Enforces strict binomial nomenclature
-- Harmonizes species names
-- Removes uninformative `"sp."` entries
-
-### Synonym Harmonization (`05_apply_synonyms.py`)
-
-- Applies custom taxonomy mappings stored in `data/synonym.txt`
-
-### Sequence Dereplication
-
-- Subsets sequences matching curated taxonomy
-- Performs RESCRIPt dereplication in super mode
+This pipeline orchestrates the curation scripts (`02_super_cleaner.py`–`05_apply_synonyms.py`) together with RESCRIPt dereplication to standardize taxonomy, remove ambiguous and incomplete classifications, harmonize species names and synonyms, and generate a curated non-redundant reference database.
 
 ### Expected Outputs
 
