@@ -63,8 +63,6 @@ MeCoRI/
 
 ---
 
-# Tutorial
-
 ## MeCoRI Tutorial
 ### A Beginner-Friendly Guide to Methanogen Classification
 
