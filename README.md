@@ -70,7 +70,7 @@ MeCoRI/
 
 Welcome to the MeCoRI tutorial.
 
-This guide is designed for users with little bioinformatics experience. If you can copy and paste commands into a terminal, you can successfully complete this tutorial.
+This guide is designed for users with little bioinformatics experience.
 
 The tutorial is divided into three parts:
 
@@ -80,7 +80,6 @@ The tutorial is divided into three parts:
 
 ---
 
----
 
 # Part 1. Quick Start (Recommended)
 
@@ -103,7 +102,7 @@ mamba env create -f environment.yml
 This will create an environment named:
 
 ```text
-Mecori
+mecori
 ```
 
 ### Correct activation
@@ -234,7 +233,7 @@ This script will automatically:
 
 - Detect and download the latest GTDB archaeal taxonomy, protein, and nucleotide datasets.
 - Build the protein database (`all_gtdb_proteins.faa`) and nucleotide database (`all_gtdb_nt.fna`).
-- Perform HMM-based screening using `PF02745.hmm` to identify candidate *mcrA*/*mrtA*-associated sequences.
+- Perform HMM-based screening using `PF02745.hmm` to identify candidate *mcr*A/*mrt*A-associated sequences.
 - Extract target nucleotide sequences and their corresponding taxonomy using an embedded Python script.
 
 ### Expected Outputs
