@@ -332,8 +332,4 @@ models/
 └── classifier_MeCoRI.qza
 ```
 
-These files can be used exactly as described in the Quick Start section for:
-
-- Mock community validation
-- Environmental dataset classification
-- Custom *mcrA*/*mrtA* taxonomic profiling
+These files can be used exactly as described in the Quick Start section for custom *Archaea* taxonomic profiling.
