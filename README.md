@@ -18,7 +18,7 @@ The current MeCoRI release contains:
 - GTDB-compatible taxonomy
 
 ### Supported Applications
-The database supports both:
+The database supports **both**:
 - Amplicon-based community profiling
 - Full-length gene classification
 
@@ -153,6 +153,9 @@ These files include:
 | `MeCoRI_tax.qza` | Curated taxonomy reference |
 | `MeCoRI_seq.qza` | Curated reference sequences |
 
+>💡 **Note on Sequence Lengths & Primer Extraction**
+> MeCoRI contains both amplicon-length and full-length sequences, supporting both Amplicon-based and Full-length gene community profiling.
+> Based on our testing, excellent classification results are achieved without needing to perform additional in silico primer extraction on MeCoRI_seq.qza. However, if you have specific experimental requirements, you can easily export MeCoRI_seq.qza and trim the sequences manually using your own primers.
 
 ---
 
