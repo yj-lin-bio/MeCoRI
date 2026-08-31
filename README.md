@@ -75,6 +75,9 @@ The tutorial is divided into three parts:
 - **Reproducing the paper benchmarks**
 - **Advanced Tutorial: Update the Database**
 
+### Database Updates (`updated/`)
+Pre-compiled QIIME 2 artifacts corresponding to major GTDB releases are provided in the `updated/` directory (e.g., `GTDB_R232_NCBI_Aug2026`). Alternatively, you can run the **Part 3** tutorial scripts locally to build an up-to-date database at any time.
+
 ---
 
 
