@@ -205,7 +205,7 @@ qiime feature-classifier classify-sklearn \
 ```bash
 qiime feature-classifier classify-sklearn \
   --i-classifier database/classifier_MeCoRI.qza \
-  --i-reads benchmark/rep-seqs.qza \
+  --i-reads benchmark/PRJNA1378807_rep-seqs.qza \
   --o-classification PRJNA1378807_MeCoRI.qza
 ```
 
