@@ -1,10 +1,15 @@
 MeCoRI/
 ├── README.md                  
-├── environment.yml
+├── environment.yml 
 ├── database/
 │   ├── MeCoRI_tax.qza
 │   ├── MeCoRI_seq.qza 
-│   └── classifier_MeCoRI.qza          
+│   └── classifier_MeCoRI.qza
+├── updated/
+│   └── GTDB_R232_NCBI_Aug2026/
+│       └── data/
+│           ├── MeCoRI_seq.qza
+│           └── MeCoRI_tax.qza          
 ├── data/
 │   ├── raw/
 │   │   └── PF02745.hmm               
@@ -22,4 +27,4 @@ MeCoRI/
     ├── mock_seq.fasta
     ├── mock_taxonomy.tsv
     ├── mock_seq.qza
-    └── PRJNA1378807_rep-seqs.qza    
+    └── PRJNA1378807_rep-seqs.qza 
