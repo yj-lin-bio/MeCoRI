@@ -73,7 +73,7 @@ The tutorial is divided into three parts:
 
 - **Quick Start** (recommended for all users)
 - **Reproducing the paper benchmarks**
-- **Analyzing your own sequencing data**
+- **Advanced Tutorial: Update the Database**
 
 ---
 
@@ -160,7 +160,7 @@ These files include:
 
 ---
 
-# Part 2. Test MeCoRI Using the Mock Community
+# Part 2. Reproducing the paper benchmarks
 
 This section demonstrates the classification accuracy reported in the manuscript.
 
