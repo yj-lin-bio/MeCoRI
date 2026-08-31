@@ -76,7 +76,7 @@ The tutorial is divided into three parts:
 - **Advanced Tutorial: Update the Database**
 
 ### Database Updates (`updated/`)
-Pre-compiled QIIME 2 artifacts corresponding to major GTDB releases are provided in the `updated/` directory (e.g., `GTDB_R232_NCBI_Aug2026`). Alternatively, you can run the **Part 3** tutorial scripts locally to build an up-to-date database at any time.
+Pre-compiled QIIME 2 artifacts corresponding to major GTDB releases are provided in the `updated/` directory (e.g., `GTDB_R232_NCBI_Aug2026`). However, because MeCoRI is a fully automated framework, you do not need to wait for official releases. You are fully equipped to run the **Part 3** pipeline scripts locally at any time to generate your own up-to-date reference database.
 
 ---
 
